@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Odibee+Sans|Open+Sans|Roboto|Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Odibee+Sans|Open+Sans|Roboto|Sriracha|Trade+Winds|Akronim|Lacquer|Shadows+Into+Light|Dancing+Script|Amatic+SC|Bangers|Permanent+Marker&display=swap");
 
 .container {
   width: 100vw;
@@ -19,4 +19,28 @@
 }
 .sriracha {
   font-family: "Sriracha";
+}
+.tradeWinds {
+  font-family: "Trade Winds";
+}
+.akronim {
+  font-family: "Akronim";
+}
+.lacquer {
+  font-family: "Lacquer";
+}
+.shadowsIntoLight {
+  font-family: "Shadows Into Light";
+}
+.dancingScript {
+  font-family: "Dancing Script";
+}
+.amaticSC {
+  font-family: "Amatic SC";
+}
+.bangers {
+  font-family: "Bangers";
+}
+.permanentMarker {
+  font-family: "Permanent Marker";
 }
