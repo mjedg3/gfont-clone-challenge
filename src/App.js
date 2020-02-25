@@ -9,17 +9,20 @@ class App extends Component {
       {
         fontName: "Roboto",
         fontAuthor: "Christian Robertson",
-        fontClass: "roboto"
+        fontClass: "roboto",
+        showButton: false
       },
       {
         fontName: "Odibee Sans",
         fontAuthor: "James Barnard",
-        fontClass: "odibeeSans"
+        fontClass: "odibeeSans",
+        showButton: false
       },
       {
         fontName: "Open Sans",
         fontAuthor: "Steve Matteson",
-        fontClass: "openSans"
+        fontClass: "openSans",
+        showButton: false
       },
       {
         fontName: "Sriracha",
@@ -67,14 +70,43 @@ class App extends Component {
         fontClass: "permanentMarker"
       }
     ],
-    text: "Almost before we knew it, we had left the ground."
+    text: "Almost before we knew it, we had left the ground.",
+    newText: ""
+  };
+  s;
+  handleChange = (event, index) => {
+    console.log(index);
+    let newFontInfo = [...this.state.fontInfo];
+    for (let i = 0; i < newFontInfo.length; ++i) {
+      newFontInfo[i].showButton = false;
+    }
+    newFontInfo[index].showButton = true;
+    this.setState({ fontInfo: newFontInfo });
+    this.setState({ newText: event.target.value });
+    //  this.setState({ showButton: true });
+  };
+
+  clickHandler = event => {
+    console.log("does this work");
+    let temp = this.state.newText;
+    this.setState({ text: temp });
   };
 
   render() {
     return (
       <div className="container">
         {this.state.fontInfo.map((font, index) => {
-          return <Card key={index} fontInfo={font} text={this.state.text} />;
+          return (
+            <Card
+              key={index}
+              fontInfo={font}
+              text={this.state.text}
+              showButton={font.showButton}
+              handleChange={event => this.handleChange(event, index)}
+              newText={this.state.newText}
+              clickHandler={event => this.clickHandler(event)}
+            />
+          );
         })}
       </div>
     );
