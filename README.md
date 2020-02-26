@@ -8,10 +8,6 @@ Using the Kanban method (TO DO / DOING / FOR REVIEW / DONE) we distributed work 
 
 Add
 
-Starting state:
+Last design improvement...
 
-![Starting State](/gfont-start.png)
-
-Team state/add png later:
-
-![Team State](/gfone-team.png)
+![Finished State](/gfont-finished.png)
