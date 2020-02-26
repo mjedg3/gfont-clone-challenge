@@ -178,25 +178,26 @@ class App extends Component {
         />
         <div className="container2">
           {this.state.temp.map((font, index) => {
-          return <Card
-              key={index}
-              fontInfo={font}
-              text={this.state.text}
-              showButton={font.showButton}
-              handleChange={event => this.handleChange(event, index)}
-              newText={this.state.newText}
-              clickHandler={event => this.clickHandler(event)}
-              fontNam={this.state.fontInfo[index].fontName}
-              links={this.state.fontInfo[index].link}
-              fontFam={this.state.fontInfo[index].fontFam}
-              info={() => this.infoHandler(index)}
-              cancel={() => this.cancelHandler(index)}
-              moreInfo={this.state.fontInfo[index].showInfo}
-            />
-          );
-        })}
+            return (
+              <Card
+                key={index}
+                fontInfo={font}
+                text={this.state.text}
+                showButton={font.showButton}
+                handleChange={event => this.handleChange(event, index)}
+                newText={this.state.newText}
+                clickHandler={event => this.clickHandler(event)}
+                fontNam={this.state.fontInfo[index].fontName}
+                links={this.state.fontInfo[index].link}
+                fontFam={this.state.fontInfo[index].fontFam}
+                info={() => this.infoHandler(index)}
+                cancel={() => this.cancelHandler(index)}
+                moreInfo={this.state.fontInfo[index].showInfo}
+                g
+              />
+            );
+          })}
         </div>
-        
       </div>
     );
   }
