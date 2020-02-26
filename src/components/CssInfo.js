@@ -17,7 +17,7 @@ const CssInfo = (props) => {
             <div className="wrap">
                 <div className="info-container2">
                     <div className="box">{props.fontFam}</div>
-                    <p className="box2">@import url ({props.links})</p>
+                    <p className="box2">@import url ('{props.links}')</p>
                     <div className="line"></div>
                     <p className="box2">font-family: {props.fontFam} ;</p>
                 </div>

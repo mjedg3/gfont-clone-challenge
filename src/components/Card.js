@@ -19,9 +19,18 @@ const Card = props => {
       <div>
       {props.moreInfo ? <CssInfo cancel={props.cancel} fontNam={props.fontNam} links={props.links} fontFam={props.fontFam} /> : null}
       </div>
-      <textarea className={classes} type="text">
-        {props.text}
-      </textarea>
+      <textarea
+        onChange={props.handleChange}
+        className={classes}
+        type="text"
+        value={props.showButton ? undefined : props.text}
+      ></textarea>
+
+      {props.showButton ? (
+        <button onClick={props.clickHandler} className="button">
+          APPLY TO ALL FONTS
+        </button>
+      ) : null}
     </div>
   );
 };
