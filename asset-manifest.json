@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/gfont-clone-challenge/np/static/css/main.75accb77.chunk.css",
-    "main.js": "/gfont-clone-challenge/np/static/js/main.d46787ca.chunk.js",
-    "main.js.map": "/gfont-clone-challenge/np/static/js/main.d46787ca.chunk.js.map",
-    "runtime-main.js": "/gfont-clone-challenge/np/static/js/runtime-main.9febfa97.js",
-    "runtime-main.js.map": "/gfont-clone-challenge/np/static/js/runtime-main.9febfa97.js.map",
-    "static/js/2.46c95301.chunk.js": "/gfont-clone-challenge/np/static/js/2.46c95301.chunk.js",
-    "static/js/2.46c95301.chunk.js.map": "/gfont-clone-challenge/np/static/js/2.46c95301.chunk.js.map",
-    "index.html": "/gfont-clone-challenge/np/index.html",
-    "precache-manifest.0ebab627d03c5e2b1096b0510274febd.js": "/gfont-clone-challenge/np/precache-manifest.0ebab627d03c5e2b1096b0510274febd.js",
-    "service-worker.js": "/gfont-clone-challenge/np/service-worker.js",
-    "static/css/main.75accb77.chunk.css.map": "/gfont-clone-challenge/np/static/css/main.75accb77.chunk.css.map",
-    "static/js/2.46c95301.chunk.js.LICENSE.txt": "/gfont-clone-challenge/np/static/js/2.46c95301.chunk.js.LICENSE.txt",
-    "static/media/plus.ace77d1b.svg": "/gfont-clone-challenge/np/static/media/plus.ace77d1b.svg",
-    "static/media/searchIcon.png": "/gfont-clone-challenge/np/static/media/searchIcon.744cf00f.png"
+    "main.css": "/gfont-clone-challenge/static/css/main.75accb77.chunk.css",
+    "main.js": "/gfont-clone-challenge/static/js/main.ed4cb34d.chunk.js",
+    "main.js.map": "/gfont-clone-challenge/static/js/main.ed4cb34d.chunk.js.map",
+    "runtime-main.js": "/gfont-clone-challenge/static/js/runtime-main.766beadf.js",
+    "runtime-main.js.map": "/gfont-clone-challenge/static/js/runtime-main.766beadf.js.map",
+    "static/js/2.46c95301.chunk.js": "/gfont-clone-challenge/static/js/2.46c95301.chunk.js",
+    "static/js/2.46c95301.chunk.js.map": "/gfont-clone-challenge/static/js/2.46c95301.chunk.js.map",
+    "index.html": "/gfont-clone-challenge/index.html",
+    "precache-manifest.658a21b18a54979d57eb8ebd0cd1cb52.js": "/gfont-clone-challenge/precache-manifest.658a21b18a54979d57eb8ebd0cd1cb52.js",
+    "service-worker.js": "/gfont-clone-challenge/service-worker.js",
+    "static/css/main.75accb77.chunk.css.map": "/gfont-clone-challenge/static/css/main.75accb77.chunk.css.map",
+    "static/js/2.46c95301.chunk.js.LICENSE.txt": "/gfont-clone-challenge/static/js/2.46c95301.chunk.js.LICENSE.txt",
+    "static/media/plus.ace77d1b.svg": "/gfont-clone-challenge/static/media/plus.ace77d1b.svg",
+    "static/media/searchIcon.png": "/gfont-clone-challenge/static/media/searchIcon.744cf00f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9febfa97.js",
+    "static/js/runtime-main.766beadf.js",
     "static/js/2.46c95301.chunk.js",
     "static/css/main.75accb77.chunk.css",
-    "static/js/main.d46787ca.chunk.js"
+    "static/js/main.ed4cb34d.chunk.js"
   ]
 }
