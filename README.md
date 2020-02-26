@@ -6,8 +6,16 @@ Issues tab / completed...
 
 Using the Kanban method (TO DO / DOING / FOR REVIEW / DONE) we distributed work appropriately:
 
-Add
+## Feature/Tickets:
 
-Last design improvement...
+- Add a Navbar to the page,
+
+- Display at least 10 fonts,
+
+- Showing CSS info; CSS Styling,
+
+- Add change all text simultaneously
+
+## Last design improvement...
 
 ![Finished State](/gfont-finished.png)
