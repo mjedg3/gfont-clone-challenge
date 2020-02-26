@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gfont-clone-challenge/static/css/main.2b1b77d2.chunk.css",
-    "main.js": "/gfont-clone-challenge/static/js/main.253157ec.chunk.js",
-    "main.js.map": "/gfont-clone-challenge/static/js/main.253157ec.chunk.js.map",
-    "runtime-main.js": "/gfont-clone-challenge/static/js/runtime-main.766beadf.js",
-    "runtime-main.js.map": "/gfont-clone-challenge/static/js/runtime-main.766beadf.js.map",
-    "static/js/2.c33bf1e9.chunk.js": "/gfont-clone-challenge/static/js/2.c33bf1e9.chunk.js",
-    "static/js/2.c33bf1e9.chunk.js.map": "/gfont-clone-challenge/static/js/2.c33bf1e9.chunk.js.map",
-    "index.html": "/gfont-clone-challenge/index.html",
-    "precache-manifest.7b66c55b31d37f21d6cabbcad61d0378.js": "/gfont-clone-challenge/precache-manifest.7b66c55b31d37f21d6cabbcad61d0378.js",
-    "service-worker.js": "/gfont-clone-challenge/service-worker.js",
-    "static/css/main.2b1b77d2.chunk.css.map": "/gfont-clone-challenge/static/css/main.2b1b77d2.chunk.css.map",
-    "static/js/2.c33bf1e9.chunk.js.LICENSE.txt": "/gfont-clone-challenge/static/js/2.c33bf1e9.chunk.js.LICENSE.txt",
-    "static/media/plus.ace77d1b.svg": "/gfont-clone-challenge/static/media/plus.ace77d1b.svg"
+    "main.css": "/gfont-clone-challengesource/static/css/main.2b1b77d2.chunk.css",
+    "main.js": "/gfont-clone-challengesource/static/js/main.c0132943.chunk.js",
+    "main.js.map": "/gfont-clone-challengesource/static/js/main.c0132943.chunk.js.map",
+    "runtime-main.js": "/gfont-clone-challengesource/static/js/runtime-main.e6d6f94c.js",
+    "runtime-main.js.map": "/gfont-clone-challengesource/static/js/runtime-main.e6d6f94c.js.map",
+    "static/js/2.c33bf1e9.chunk.js": "/gfont-clone-challengesource/static/js/2.c33bf1e9.chunk.js",
+    "static/js/2.c33bf1e9.chunk.js.map": "/gfont-clone-challengesource/static/js/2.c33bf1e9.chunk.js.map",
+    "index.html": "/gfont-clone-challengesource/index.html",
+    "precache-manifest.1926cc30d4abbcc19075e7b040fd1808.js": "/gfont-clone-challengesource/precache-manifest.1926cc30d4abbcc19075e7b040fd1808.js",
+    "service-worker.js": "/gfont-clone-challengesource/service-worker.js",
+    "static/css/main.2b1b77d2.chunk.css.map": "/gfont-clone-challengesource/static/css/main.2b1b77d2.chunk.css.map",
+    "static/js/2.c33bf1e9.chunk.js.LICENSE.txt": "/gfont-clone-challengesource/static/js/2.c33bf1e9.chunk.js.LICENSE.txt",
+    "static/media/plus.ace77d1b.svg": "/gfont-clone-challengesource/static/media/plus.ace77d1b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.766beadf.js",
+    "static/js/runtime-main.e6d6f94c.js",
     "static/js/2.c33bf1e9.chunk.js",
     "static/css/main.2b1b77d2.chunk.css",
-    "static/js/main.253157ec.chunk.js"
+    "static/js/main.c0132943.chunk.js"
   ]
 }
