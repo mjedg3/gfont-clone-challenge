@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-
 import "./App.css";
 import Card from "./components/Card";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
   state = {
@@ -67,13 +67,38 @@ class App extends Component {
         fontClass: "permanentMarker"
       }
     ],
-    text: "Almost before we knew it, we had left the ground."
+    text: "Almost before we knew it, we had left the ground.",
+    searchTerm: "",
+    temp: []
+  };
+
+  componentDidMount() {
+    this.setState({ temp: this.state.fontInfo });
+  }
+
+  searchHandler = e => {
+    let arr = [...this.state.fontInfo];
+    let arr2 = arr.filter(font => {
+      return font.fontName.toLowerCase() == e.target.value.toLowerCase();
+    });
+
+    if (e.target.value == "") {
+      this.setState({ temp: this.state.fontInfo, searchTerm: "" });
+    } else {
+      this.setState({ temp: arr2, searchTerm: e.target.value });
+    }
   };
 
   render() {
     return (
       <div className="container">
-        {this.state.fontInfo.map((font, index) => {
+        <Navbar
+          color
+          searchHandler={e => this.searchHandler(e)}
+          fonts={this.state.fontInfo}
+          val={this.state.searchTerm}
+        />
+        {this.state.temp.map((font, index) => {
           return <Card key={index} fontInfo={font} text={this.state.text} />;
         })}
       </div>
