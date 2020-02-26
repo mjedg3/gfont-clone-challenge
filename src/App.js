@@ -173,7 +173,8 @@ class App extends Component {
           fonts={this.state.fontInfo}
           val={this.state.searchTerm}
         />
-        {this.state.temp.map((font, index) => {
+        <div className="container2">
+          {this.state.temp.map((font, index) => {
           return <Card
               key={index}
               fontInfo={font}
@@ -190,6 +191,8 @@ class App extends Component {
               moreInfo={this.state.fontInfo[index].showInfo}
             />;
         })}
+        </div>
+        
       </div>
     );
   }
