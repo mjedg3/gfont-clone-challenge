@@ -10,6 +10,7 @@
 .info-container {
   margin: 10px 0;
 }
+
 .font-name,
 .font-author {
   font-family: "Open Sans";
@@ -17,10 +18,19 @@
   font-size: 90%;
   font-weight: 700;
   color: darkgrey;
+  line-height: 10px;
 }
 
 .font-name {
   color: black;
+}
+.button {
+  background-image: none;
+  color: crimson;
+  font-weight: 500;
+  font-size: 90%;
+  border: none;
+  background-image: none;
 }
 
 .show-text {
@@ -40,4 +50,5 @@
   height: 20px;
   width: 20px;
   margin-top: 10px;
+  cursor: pointer
 }
