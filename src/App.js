@@ -176,9 +176,9 @@ class App extends Component {
           fonts={this.state.fontInfo}
           val={this.state.searchTerm}
         />
-        {this.state.temp.map((font, index) => {
-          return (
-            <Card
+        <div className="container2">
+          {this.state.temp.map((font, index) => {
+          return <Card
               key={index}
               fontInfo={font}
               text={this.state.text}
@@ -195,6 +195,8 @@ class App extends Component {
             />
           );
         })}
+        </div>
+        
       </div>
     );
   }

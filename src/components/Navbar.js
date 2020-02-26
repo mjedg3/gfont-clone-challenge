@@ -1,11 +1,13 @@
 import React from "react";
-import "../components/Navbar.css";
+import "../styles/Navbar.css";
+import search from "../assets/searchIcon.png"
 
 const Navbar = props => {
   console.log(props.val);
   return (
-    <div className="navlist">
-      <input id="input" onChange={props.searchHandler} value={props.val} />
+    <div className="nav-box">
+      <img className="search" src={search}/>
+      <input placeholder="Search fonts" id="input" onChange={props.searchHandler} value={props.val} />
     </div>
   );
 };

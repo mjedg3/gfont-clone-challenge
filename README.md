@@ -1,6 +1,6 @@
 I collectively worked with two of my peers at CodeNation on this project, Ga Ming and Jenny. We had issues/bug fix tasks
 
-## Click on the issues tab at the top of this repo to see current issues
+## Cloning Google Fonts with React
 
 Issues tab / completed...
 
